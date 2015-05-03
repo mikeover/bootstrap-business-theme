@@ -2,6 +2,11 @@ body {
   padding-top: 90px;
 }
 
+h1 {
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+}
+
 .nav {
     margin-top: 18px;
 }
@@ -45,5 +50,12 @@ body {
     color: #fff !important;
 }
 
-
+.jumbotron {
+    margin: 0 !important;
+    min-height: 450px;
+    background: url(../img/bg.jpg) no-repeat;
+}
+.jumbotron h1 {
+    font-size: 55px;
+}
 
